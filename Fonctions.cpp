@@ -31,5 +31,3 @@ string choisirQuestionAleatoire(const vector<string>& questions) {
     int indexAleatoire = rand() % questions.size();
     return questions[indexAleatoire];
 }
-
-
